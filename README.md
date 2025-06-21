@@ -7,9 +7,12 @@ StreamTube is a full-stack video management and sharing platform inspired by You
 
 ![dashboard page](./images/dashboard.png)
 ![login page](./images/login_page.png)
+## Mobile View
+
+Below are screenshots demonstrating the responsive design of StreamTube on both desktop and mobile devices.
 <p align="center">
-    <img src="./images/mobile_login.png" alt="Mobile Login View" width="320" style="margin: 0 20px;" />
-    <img src="./images/mobile_dashboard.png" alt="Mobile Dashboard View" width="320" style="margin: 0 20px;" />
+    <img src="./images/mobile_login.png" alt="Mobile Login View" width="320" style="margin-right: 10px;" />
+    <img src="./images/mobile_dashboard.png" alt="Mobile Dashboard View" width="320" style="margin-left: 10px;" />
 </p>
 
 
