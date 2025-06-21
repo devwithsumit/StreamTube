@@ -1,18 +1,17 @@
 # StreamTube - Full Stack Video Platform (YouTube Clone)
 
-StreamTube is a full-stack video management and sharing platform inspired by YouTube. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it allows users to upload, view, and interact with videos. The project is organized into two main folders:
-
-- `backend/` — Node.js/Express API server (handles authentication, video management, comments, etc.)
-- `frontend/` — React.js client (user interface, video player, dashboard, etc.)
-
+StreamTube is a full-stack video management and sharing platform inspired by YouTube. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it allows users to upload, view, and interact with videos.
+## Dashboard Preview
 ![dashboard page](./images/dashboard.png)
+
 ![login page](./images/login_page.png)
+
 ## Mobile View
 
 Below are screenshots demonstrating the responsive design of StreamTube on both desktop and mobile devices.
-<p align="center">
-    <img src="./images/mobile_login.png" alt="Mobile Login View" width="320" style="margin-right: 10px;" />
-    <img src="./images/mobile_dashboard.png" alt="Mobile Dashboard View" width="320" style="margin-left: 10px;" />
+<p align="center" style="display: flex; gap: 20px;">
+    <img src="./images/mobile_login.png" alt="Mobile Login View" width="320" />
+    <img src="./images/mobile_dashboard.png" alt="Mobile Dashboard View" width="320" />
 </p>
 
 
