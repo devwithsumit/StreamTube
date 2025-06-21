@@ -7,27 +7,25 @@ StreamTube is a full-stack video management and sharing platform inspired by You
 
 ![dashboard page](./images/dashboard.png)
 ![login page](./images/login_page.png)
-<div id="mobile_img_box" style="#mobile_img_box{display: flex; align-items: center;  justify-content: space-around;}">
-      <img src="./images/mobile_login.png" alt="mobile view" width="250" />
-      <img src="./images/mobile_dashboard.png" alt="mobile view" width="250" />
-</div>
+<p align="center">
+    <img src="./images/mobile_login.png" alt="Mobile Login View" width="320" style="margin: 0 20px;" />
+    <img src="./images/mobile_dashboard.png" alt="Mobile Dashboard View" width="320" style="margin: 0 20px;" />
+</p>
 
 
----
 
 # Installation Guide
 **Here is the Complete Installation guide of this project.**
-
-## Requirements
-- [Node.js](https://nodejs.org/en/download)
-- [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
-
 
 ## Clone the repository
 ```shell
 git clone https://github.com/devwithsumit/StreamTube
 cd streamtube
 ```
+
+## Requirements
+- [Node.js](https://nodejs.org/en/download)
+- [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
 
 ## Project Structure
 
