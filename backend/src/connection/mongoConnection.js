@@ -1,11 +1,10 @@
 import chalk from "chalk";
 import mongoose from "mongoose";
-import { configDotenv } from "dotenv";
-configDotenv();
-
-const MONGO_URI = process.env.MONGO_URI;
+// import { configDotenv } from "dotenv";
+// configDotenv();
 
 export const connectDB = async () => {
+    const MONGO_URI = process.env.MONGO_URI;
     try {
         await mongoose.connect(MONGO_URI);
         console.log(chalk.yellowBright('✅ MongoDB connected'));
