@@ -22,7 +22,7 @@ const videoSchema = new mongoose.Schema({
         type: Number,
         default: 0,
     },
-    videoType:{
+    videoType: {
         type: String,
         default: 'All'
     },
@@ -39,7 +39,7 @@ const videoSchema = new mongoose.Schema({
         lowercase: true,
         trim: true
     }],
-    userId: {
+    user: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "user",
         required: true,

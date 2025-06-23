@@ -9,6 +9,12 @@ const userSchema = new mongoose.Schema({
         minlength: 3,
         maxlength: 30,
     },
+    channelName: {
+        type: String,
+        default: function () {
+            return this.username;
+        },
+    },
     firstName: {
         type: String,
         trim: true,
